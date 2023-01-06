@@ -1,0 +1,14 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+
+    "extends": "@tsconfig/strictest/tsconfig.json",
+    "compilerOptions": {
+        "noEmit": true,
+        // This is _not_ only for emitting (which we don't use)—it also influences the `lib` property.
+        "target": "ESNext",
+
+        // We want to be very strict but not quite as strict as the strictest.
+        "exactOptionalPropertyTypes": false,
+        "noFallthroughCasesInSwitch": false
+    }
+}

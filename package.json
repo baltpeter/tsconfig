@@ -1,0 +1,32 @@
+{
+    "name": "@baltpeter/tsconfig",
+    "version": "0.0.0",
+    "description": "The TypeScript configs Benjamin Altpeter uses in his projects.",
+    "author": "Benjamin Altpeter <hi@bn.al>",
+    "keywords": [
+        "typescript",
+        "tsconfig"
+    ],
+    "license": "CC0-1.0",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/baltpeter/tsconfig.git"
+    },
+    "bugs": {
+        "url": "https://github.com/baltpeter/tsconfig/issues"
+    },
+    "main": "tsconfig.json",
+    "files": [
+        "tsconfig.json",
+        "tsconfig.*.json"
+    ],
+    "scripts": {
+        "test": "echo 'TODO: No test specified yet.'"
+    },
+    "devDependencies": {
+        "@tsconfig/strictest": "^1.0.2"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
