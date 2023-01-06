@@ -23,7 +23,7 @@
     "scripts": {
         "test": "echo 'TODO: No test specified yet.'"
     },
-    "devDependencies": {
+    "dependencies": {
         "@tsconfig/strictest": "^1.0.2"
     },
     "publishConfig": {
