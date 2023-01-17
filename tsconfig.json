@@ -6,6 +6,7 @@
         "noEmit": true,
         // This is _not_ only for emitting (which we don't use)—it also influences the `lib` property.
         "target": "ESNext",
+        "moduleResolution": "node",
 
         // We want to be very strict but not quite as strict as the strictest.
         "exactOptionalPropertyTypes": false,
