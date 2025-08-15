@@ -27,3 +27,16 @@ Instead of the default config, you can also use one of the following configs:
 
 * `@baltpeter/tsconfig/tsconfig.node.json` for Node.js projects
 * `@baltpeter/tsconfig/tsconfig.preact.json` for Preact projects
+
+   For the aliasing of React to Preact to work, you need to set `"baseUrl": "./"` in _your_ `tsconfig.json`, e.g.:
+
+   ```json
+   {
+        "extends": "@baltpeter/tsconfig/tsconfig.preact.json",
+        "include": ["src/**/*"],
+
+        "compilerOptions": {
+            "baseUrl": "./"
+        }
+    }
+   ```
